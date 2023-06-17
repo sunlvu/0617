@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register Form</title>
+
+</head>
+<body>
+  <div class="container">
+    <h2>Register Form</h2>
+
+    <form action="/register" method="POST">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="username" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" id="register" value="Register">
+    
+      </div>
+    </form>
+  </div>
+  <script>
+   document.getElementById('register').addEventListener('click', function() {
+        window.location.href = '/top';
+      });
+</script>
+
+</body>
+</html>
+

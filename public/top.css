@@ -1,0 +1,14 @@
+.sky-blue-button {
+    background-color: rgb(218, 213, 227);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sky-blue-button:hover {
+    background-color: rgb(89, 137, 167);
+  }
+  
